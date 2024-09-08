@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Drive - Google Drive</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="Bar">
+        <div class="logo">
+            <img src="logo2.png" alt="Drive Logo">
+            <h3>Drive</h3>
+        </div>
+        <div class="search">
+            <div class="input-container">
+                <span class="prefix"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" placeholder="Search in Drive">
+                <span class="suffix"><i class="fa-solid fa-bars-staggered"></i>
+            </div></span>
+        </div>
+        <div class="icons">
+            <i class="fa-lg fa-regular fa-circle-check"></i>
+            <i class="fa-lg fa-regular fa-circle-question"></i>
+            <i class="fa-lg fa-regular fa-gear"></i>
+            <i class="fa-lg fa-solid fa-grid"></i>
+        </div>
+
+    </div>
+
+    <div class="main">
+        <section class="options">
+            <button id="newButton">
+                <i class="fa-lg fa-solid fa-plus"></i>
+                New
+            </button>
+            <input type="file" id="fileInput" style="display: none;">
+
+            <div class="choices">
+                <div class="sec">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+                        <li><a href="#"><i class="fa-brands fa-google-drive"></i>My Drive</a></li>
+                        <li><a href="#"><i class="fa-solid fa-tv"></i>Computers</a></li>
+                    </ul>
+                </div>
+                <div class="sec">
+                    <ul>
+                        <li><a href="#"><i class="fa-regular fa-user"></i>Shared With Me</a></li>
+                        <li><a href="#"><i class="fa-regular fa-clock"></i>Stared</a></li>
+                        <li><a href="#"><i class="fa-regular fa-star"></i>Recent</a></li>
+                    </ul>
+                </div>
+                <div class="sec">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-exclamation"></i>Spam</a></li>
+                        <li><a href="#"><i class="fa-solid fa-trash"></i>Trash</a></li>
+                        <li><a href="#"><i class="fa-solid fa-cloud"></i>Storage</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+        <div class="Drive">
+            <p>Welcome To Drive</p>
+            <div class="suggested">
+                <p>suggested</p>
+                <button class="btn1"><i class="fa-solid fa-check"></i>Files</button>
+                <button class="btn2"><i class="fa-regular fa-folder"></i>Folders</button>
+            </div>
+
+            <div class="filesContainer">
+                <table class="tab">
+                    <th>Name</th>
+                    <th>Reason Suggested</th>
+                    <th>Owner</th>
+                    <th>Location</th>
+
+                    <!-- <tr>
+                        <td>doha</td>
+                        <td>sdas</td>
+                        <td>srfsrtw</td>
+                    </tr> -->
+
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
